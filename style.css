@@ -1,46 +1,58 @@
 
 
+.head-styles{
+  color: black;
+  font-size: 16px;
+  border-bottom: 1px dotted black;
+}
+
 
 
 .transform{
   text-transform: none !important;
 }
 
+.container-fluid{
+  background: grey;
+}
 
-textarea{
+
+/* textarea{
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-}
+} */
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: darkslategrey !important;
   border-radius: 0;
-  border-bottom: 10px solid darkslategrey;
-  background-image: linear-gradient(mediumaquamarine, white); 
+  background: rgb(223,167,94);
+  background: radial-gradient(circle, rgba(223,167,94,1) 63%, rgba(72,222,231,1) 86%);
+  margin-bottom: 0 !important;
+
+  /* border-bottom: 6px solid darkslategrey; */
+  
+  
 }
 
-.description{
+
+
+/* .description{
   white-space: pre-wrap;
-}
+} */
 
-.time-block{
+/* .time-block{
   text-align: center;
   border-radius: 15px;
-}
+} */
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
 
-.hour {
+/* .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -67,7 +79,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-}
+} */
 
 .saveBtn i:hover {
   font-size: 20px;
@@ -75,16 +87,22 @@ textarea{
 }
 
 .lead{
-  margin-top: 25px !important;
+  /* margin-top: 25px !important; */
 }
 
 .table-input{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 2px;
+  background-color: gainsboro;
 }
 
 .table-flex{
   width: 100%;
+}
+
+.text-field{
+  width: 100%;
+  resize: none;
 }
 
 #activity-center{
@@ -98,5 +116,16 @@ textarea{
 #my{
   color: darkslategrey !important;
 }
+
+h1{
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.save{
+  font-size: 30px;
+  
+}
+
+
 
 

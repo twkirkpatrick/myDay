@@ -1,9 +1,14 @@
 
 
+
+body{
+  background-image: linear-gradient(#DFA75E, #5FDEE7, white);
+}
+
 .head-styles{
   color: black;
   font-size: 16px;
-  border-bottom: 1px dotted black;
+  /* border-bottom: 2px solid black; */
 }
 
 .sun{
@@ -18,7 +23,7 @@
 }
 
 .container-fluid{
-  background-image:linear-gradient(#5FDEE7, white);
+  /* background-image:linear-gradient(#5FDEE7, white); */
   /* background-repeat:no-repeat; */
 }
 
@@ -37,7 +42,7 @@
   background-color: transparent;
   color: darkslategrey !important;
   border-radius: 0;
-  background-color: #DFA75E;
+  
   margin-bottom: 0 !important;
 
   
@@ -51,49 +56,49 @@
 
 
 
-/* .description{
+ /* .description{
   white-space: pre-wrap;
-} */
+} 
 
-/* .time-block{
+ .time-block{
   text-align: center;
   border-radius: 15px;
-} */
+}  */
 
 
-/* .hour {
+/*  .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+ */
 .past {
-  background-color: #d3d3d3;
+  background-color: grey !important;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ff6961 !important;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #77dd77 !important;
   color: white;
 }
 
-.saveBtn {
+/* .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-} */
+} 
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
-}
+} */
 
 .lead{
   /* margin-top: 25px !important; */
@@ -107,6 +112,7 @@
 
 .table-flex{
   width: 100%;
+  
 }
 
 .text-field{

@@ -8,14 +8,14 @@ $(document).ready(function(){
     
     $("#currentDay").text(current);
 
-    localStorage.setItem
+    
 
    //BACKGROUND COLORS FOR CURRENT HOUR//
 
    function checkTime(){
        
         var currentHour = moment().format("HH");
-        /* moment().format("HH"); */
+        
 
         console.log(currentHour);
         
@@ -26,7 +26,7 @@ $(document).ready(function(){
           
             if(timeBlock < currentHour){
                 $(this).addClass("past")
-            } else if(timeBlock === currentHour){
+            } else if(timeBlock == currentHour){
                 $(this).removeClass("past")
                 $(this).addClass("present")
             } else{
@@ -52,8 +52,8 @@ checkTime();
        event.preventDefault();
        var value = $(this).parent().parent().siblings("td").children().val();
        var key = $(this).parent().parent().siblings("td").attr("id");
-       console.log(key, value )
-    localStorage.setItem(key, value)
+       console.log(key, value);
+       localStorage.setItem(key, value);
 
  
    });

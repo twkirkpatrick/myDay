@@ -68,6 +68,14 @@ checkTime();
    $("#16 .text-field").val(localStorage.getItem("16"));
    $("#17 .text-field").val(localStorage.getItem("17"));
 
+   $(".trash").on("click", function(event){
+      
+      $(this).parent().parent().siblings("td").children().val("");
+
+      localStorage.removeItem($(this).parent().parent().siblings("td").attr("id"));
+
+   })
+
 
 
 

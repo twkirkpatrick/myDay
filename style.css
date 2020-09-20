@@ -138,8 +138,36 @@ h1{
 }
 
 .save{
-  font-size: 30px;
+  font-size: 35px;
   
+}
+
+.trash{
+  font-size: 35px;
+  
+}
+
+button{
+  background: transparent;
+  border: none;
+}
+
+button:hover{
+  color: white;
+}
+
+th{
+  font-size: 15px !important;
+  color: darkslategray !important;
+}
+
+.table-wide{
+  white-space: nowrap;
+
+}
+
+button{
+  display: inline-block;
 }
 
 

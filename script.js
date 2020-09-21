@@ -14,8 +14,8 @@ $(document).ready(function(){
 
    function checkTime(){
        
-        var currentHour = 11;
-        /* moment().format("HH"); */
+        var currentHour = moment().format("HH");
+        
         
 
         console.log(currentHour);

@@ -152,7 +152,7 @@ button{
 }
 
 .fade{
-  animation: fade-in 30s;
+  animation: fade-in 6s;
 }
 
 @keyframes fade-in{
@@ -166,7 +166,7 @@ button{
 }
 
 .fade-out{
-  animation: fade-out 30s;
+  animation: fade-out 3s;
 }
 
 @keyframes fade-out{

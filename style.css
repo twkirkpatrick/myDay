@@ -16,12 +16,9 @@ body{
 }
 
 
-
 .transform{
   text-transform: none !important;
 }
-
-
 
 
 .jumbotron {
@@ -106,7 +103,7 @@ button:hover{
 
 th{
   font-size: 15px !important;
-  color: darkslategray !important;
+  color: black !important;
 }
 
 .table-wide{
@@ -124,7 +121,8 @@ button{
   padding: 10px;
   background-color: #2eb82e;
   font-family: "Nunito Sans";
-  border-radius: 15px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px black;
 }
 
 .clear{
@@ -133,7 +131,8 @@ button{
   padding: 10px;
   background-color: #d92626;
   font-family: "Nunito Sans";
-  border-radius: 15px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px black;
 }
 
 #toastContainer{

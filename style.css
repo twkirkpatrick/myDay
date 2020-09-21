@@ -39,7 +39,7 @@ body{
 }
 
 .present {
-  background-color: #ff6961 !important;
+  background-color: #D4AC6B !important;
   color: white;
 }
 
@@ -122,7 +122,7 @@ button{
   background-color: #2eb82e;
   font-family: "Nunito Sans";
   border-radius: 7px;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 18px black;
 }
 
 .clear{
@@ -132,7 +132,7 @@ button{
   background-color: #d92626;
   font-family: "Nunito Sans";
   border-radius: 7px;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 18px black;
 }
 
 #toastContainer{
@@ -152,7 +152,7 @@ button{
 }
 
 .fade{
-  animation: fade-in 6s;
+  animation: fade-in 30s;
 }
 
 @keyframes fade-in{
@@ -166,7 +166,7 @@ button{
 }
 
 .fade-out{
-  animation: fade-out 3s;
+  animation: fade-out 30s;
 }
 
 @keyframes fade-out{

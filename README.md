@@ -5,7 +5,7 @@ This is homework assignment #5 for the University of Richmond Full Stack Bootcam
     1. Features color coded time blocks based on the current hour. (Grey = Past, Orange = Present, Green = Future)
     2. Utilization of local storage to save items so the content persists on reload of the page.
     3. Ability to delete items when necessary.
-    4. Toast notifications to let the user know that their items have been successfully saved or deleted.
+    4. Toast notifications to inform the user that their items have been successfully saved or deleted.
 
 ## Technologies
    **HTML5** <br>

@@ -139,12 +139,12 @@ h1{
 }
 
 .save{
-  font-size: 35px;
+  font-size: 34px;
   
 }
 
 .trash{
-  font-size: 35px;
+  font-size: 34px;
   
 }
 
@@ -174,13 +174,13 @@ button{
 .notify{
   
 
-  color: black;
+  color: white;
 
-  font-size: 20px;
+  font-size: 12px;
 
-  padding: 20px;
+  padding: 10px;
 
-  background-color: #5FDEE7;
+  background-color: #2eb82e;
 
   font-family: "Nunito Sans";
 
@@ -188,7 +188,22 @@ button{
 
   border-radius: 5px;
 
-  
+}
+
+.clear{
+  color: white;
+
+  font-size: 13px;
+
+  padding: 10px;
+
+  background-color: #d92626;
+
+  font-family: "Nunito Sans";
+
+  border: 1px solid darkslategray;
+
+  border-radius: 5px;
 }
 
 #toastContainer{
@@ -202,8 +217,17 @@ button{
   opacity: 1;
 }
 
+.trash-can{
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.check{
+  font-size: 14px;
+}
+
 .fade{
-  animation: fade-in 2s;
+  animation: fade-in 5s;
 }
 
 @keyframes fade-in{
@@ -217,7 +241,7 @@ button{
 }
 
 .fade-out{
-  animation: fade-out 2s;
+  animation: fade-out 3s;
 }
 
 @keyframes fade-out{

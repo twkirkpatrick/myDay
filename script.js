@@ -62,15 +62,17 @@ checkTime();
    });
 
    function showToast(){
-    var toastDiv = $("<p>").text("Item saved");
+    var toastDiv = $("<p>").text("Item successfully saved");
 
-    console.log(toastDiv);
+    var check = $("<i>").attr("class", "fas fa-check");
 
-    toastDiv.addClass("notify fade fade-out");
+    toastDiv.append(check);
+
+    toastDiv.addClass("notify check fade fade-out");
 
     var container = $("#toastContainer");
 
-    console.log(container);
+    
 
     container.html(toastDiv);
 
@@ -104,10 +106,14 @@ checkTime();
    })
 
    function showClear(){
-    var clearDiv = $("<p>").text("Item cleared");
+    var clearDiv = $("<p>").text("Item successfully cleared");
+
+    var trash = $("<i>").attr("class", "far trash-can fa-trash-alt");
+
+    clearDiv.append(trash);
 
 
-    clearDiv.addClass("notify fade fade-out");
+    clearDiv.addClass("clear fade fade-out");
 
     var container = $("#toastContainer");
 

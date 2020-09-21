@@ -8,11 +8,11 @@ This is homework assignment #5 for the University of Richmond Full Stack Bootcam
     4. Toast notifications to let the user know that their items have been successfully saved or deleted.
 
 ## Technologies
-   **HTML5**
-   **CSS3**
-   **JavaScript**
-   **Bootstrap**
-   **Moment.js**
+   **HTML5** <br>
+   **CSS3** <br>
+   **JavaScript** <br>
+   **Bootstrap** <br>
+   **Moment.js** <br>
    **jQuery** 
    
 
@@ -28,9 +28,9 @@ This is homework assignment #5 for the University of Richmond Full Stack Bootcam
 <br>
 
 ## Resources
-   **Bootswatch**
-   **Google Fonts**
-   **Font Awesome**
+   **Bootswatch** <br>
+   **Google Fonts** <br>
+   **Font Awesome** 
 
 ### License & Copyright
 

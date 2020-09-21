@@ -8,6 +8,7 @@ body{
 .head-styles{
   color: black;
   font-size: 16px;
+  
   /* border-bottom: 2px solid black; */
 }
 
@@ -170,6 +171,64 @@ button{
   display: inline-block;
 }
 
+.notify{
+  
+
+  color: black;
+
+  font-size: 20px;
+
+  padding: 20px;
+
+  background-color: #5FDEE7;
+
+  font-family: "Nunito Sans";
+
+  border: 1px solid darkslategray;
+
+  border-radius: 5px;
+
+  
+}
+
+#toastContainer{
+  position: fixed;
+
+  top: 50px;
+
+  right: 50px;
+
+  
+  opacity: 1;
+}
+
+.fade{
+  animation: fade-in 2s;
+}
+
+@keyframes fade-in{
+  from {
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-out{
+  animation: fade-out 2s;
+}
+
+@keyframes fade-out{
+  from {
+    opacity: 1;
+  }
+
+  to{
+    opacity: 0;
+  }
+}
 
 
 

@@ -46,6 +46,7 @@ checkTime();
 
    
 
+
    
    
    $(".save").on("click", function(event){
@@ -54,10 +55,33 @@ checkTime();
        var key = $(this).parent().parent().siblings("td").attr("id");
        console.log(key, value);
        localStorage.setItem(key, value);
+       showToast();
+       
 
  
    });
 
+   function showToast(){
+    var toastDiv = $("<p>").text("Item saved");
+
+    console.log(toastDiv);
+
+    toastDiv.addClass("notify fade fade-out");
+
+    var container = $("#toastContainer");
+
+    console.log(container);
+
+    container.html(toastDiv);
+
+
+
+
+}
+
+
+
+   
    $("#9 .text-field").val(localStorage.getItem("9"));
    $("#10 .text-field").val(localStorage.getItem("10"));
    $("#11 .text-field").val(localStorage.getItem("11"));
@@ -68,13 +92,28 @@ checkTime();
    $("#16 .text-field").val(localStorage.getItem("16"));
    $("#17 .text-field").val(localStorage.getItem("17"));
 
+   
    $(".trash").on("click", function(event){
       
       $(this).parent().parent().siblings("td").children().val("");
 
       localStorage.removeItem($(this).parent().parent().siblings("td").attr("id"));
 
+      showClear();
+
    })
+
+   function showClear(){
+    var clearDiv = $("<p>").text("Item cleared");
+
+
+    clearDiv.addClass("notify fade fade-out");
+
+    var container = $("#toastContainer");
+
+
+    container.html(clearDiv);
+   }
 
 
 
